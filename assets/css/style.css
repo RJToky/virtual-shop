@@ -89,7 +89,8 @@ header .nav-bar ul li span {
   transition: 0.5s;
 }
 
-header .nav-bar ul li:hover span {
+header .nav-bar ul li:hover span,
+header .nav-bar ul li.active span {
   transform: scale(1);
 }
 
