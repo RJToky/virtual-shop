@@ -115,7 +115,7 @@ header .nav-bar .hamburger {
 
 .background-img img.active {
   display: block;
-  animation: animate 6s;
+  animation: animate 5s;
 }
 
 @keyframes animate {
@@ -177,7 +177,6 @@ main > p {
     height: 40px;
     justify-content: center;
     gap: 10px;
-    /* border: 1px solid white; */
   }
 
   header .nav-bar .hamburger > span:nth-child(1) {
@@ -192,7 +191,6 @@ main > p {
     max-width: 25px;
     height: 4px;
     transition: 0.2s;
-    transition-delay: 0s;
     border-radius: 10px;
   }
 
@@ -201,8 +199,6 @@ main > p {
     width: 40px;
     height: 4px;
     border-radius: 10px;
-    transition: 0.2s;
-    transition-delay: 0.08s;
   }
 
   header .nav-bar .hamburger:hover > span {

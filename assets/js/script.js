@@ -8,4 +8,4 @@ setInterval(() => {
   i++;
   if (i == img.length) i = 0;
   img[i].classList.add("active");
-}, 6000);
+}, 5000);
